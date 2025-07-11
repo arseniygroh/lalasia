@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalasia</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__grid">
+                <a href="index.html" class="header__logo">
+                    <img src="images/header/logo-item.svg" alt="">
+                    <span>Lalasia</span>
+                </a>
+                <nav class="header__nav nav-header">
+                    <ul class="nav-header__list list-nav-header">
+                        <li class="list-nav-header__item">
+                            <a href="products.html" class="list-nav-header__link">Product</a>
+                        </li>
+                        <li class="list-nav-header__item">
+                            <a href="services.html" class="list-nav-header__link">Services</a>
+                        </li>
+                        <li class="list-nav-header__item">
+                            <a href="article.html" class="list-nav-header__link">Article</a>
+                        </li>
+                        <li class="list-nav-header__item">
+                            <a href="about.html" class="list-nav-header__link">About Us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__actions actions-header">
+                    <a href="#" class="actions-header__cart">
+                        <img src="images/header/bag.svg" alt="">
+                    </a>
+                    <a href="#" class="actions-header__user">
+                        <img src="images/header/user.svg" alt="">
+                    </a>
+                    <button class="icon-menu"><span></span></button>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__hero-product hero-product">
+                <header class="hero-product__header fade-in">
+                    <h1>Products</h1>
+                    <div class="hero-product__text">
+                        <p>We display products based on the latest products we have, if you want
+                            to see our old products please enter the name of the item</p>
+                    </div>
+                </header>
+                <div class="swiper-container hero-product-swiper-container fade-in">
+                    <div class="swiper-wrapper hero-product-swiper-wrapper">
+                      <div class="swiper-slide hero-product-swiper-slide">
+                        <img src="images/hero-product/01.png" alt="">
+                        <div class="hero-product-swiper-slide__body body-hero-product-swiper-slide">
+                            <div class="body-hero-product-swiper-slide__lable">Discount</div>
+                            <h3 class="body-hero-product-swiper-slide__title">Ramadhan Sale Offer</h3>
+                            <div class="body-hero-product-swiper-slide__text">
+                                <p>Get 40% off for the first transaction
+                                    on Lalasia</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide hero-product-swiper-slide">
+                        <img src="images/hero-product/item03.png" alt="">
+                        <div class="hero-product-swiper-slide__body body-hero-product-swiper-slide">
+                            <div class="body-hero-product-swiper-slide__lable">Discount</div>
+                            <h3 class="body-hero-product-swiper-slide__title">Minimalist Lounge Chair</h3>
+                            <div class="body-hero-product-swiper-slide__text">
+                                <p>Get 40% off for the first transaction
+                                    on Lalasia</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide hero-product-swiper-slide">
+                        <img src="images/hero-product/item06.png" alt="">
+                        <div class="hero-product-swiper-slide__body body-hero-product-swiper-slide">
+                            <div class="body-hero-product-swiper-slide__lable">Discount</div>
+                            <h3 class="body-hero-product-swiper-slide__title">Wooden Dining Table</h3>
+                            <div class="body-hero-product-swiper-slide__text">
+                                <p>Get 40% off for the first transaction
+                                    on Lalasia</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination hero-product-swiper-pagination"></div>
+                    <div class="swiper-button-prev hero-product-swiper-btn-prev">
+                        <img src="images/products/arrow.svg" alt="">
+                    </div>
+                    <div class="swiper-button-next hero-product-swiper-btn-next">
+                        <img src="images/products/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="hero-product__container">
+                    <form action="#" class="hero-product__form form-hero-product fade-in">
+                        <div class="form-hero-product__wrapper">
+                            <input type="text" placeholder="Search property">
+                            <button type="button" class="form-hero-product__search">Find Now</button>
+                        </div>
+                        <button type="button" class="form-hero-product__filter">
+                            <img src="images/hero-product/filter.svg" alt="">
+                            <span>Filter</span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+            <section class="page__catalog catalog">
+                <div class="catalog__container">
+                    <div class="catalog__header header-catalog fade-in">
+                        <div class="header-catalog__box">
+                            <h2 class="header-catalog__title">Total Product</h2>
+                            <span class="header-catalog__count">184</span>
+                        </div>
+                        <div class="header-catalog__wrapper">
+                            <button type="button" class="header-catalog__sort">
+                                <img src="images/hero-product/sort.svg" alt="">
+                                <span>Sort by</span>
+                            </button>
+                            <ul class="header-catalog__submenu submenu-header-catalog hidden">
+                                <li class="submenu-header-catalog__item">Ascending prices</li>
+                                <li class="submenu-header-catalog__item">Descending prices</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="catelog__items">
+                        <div class="catalog__item item-catalog">
+                            <img src="images/hero-product/item01.png" alt="">
+                            <div class="item-catalog__lable">Chair</div>
+                            <h4 class="item-catalog__title">White Aesthetic Chair</h4>
+                            <div class="item-catalog__desc">Combination of wood and wool</div>
+                            <div class="item-catalog__price">$63.47</div>
+                        </div>
+                        <div class="catalog__item item-catalog">
+                            <img src="images/hero-product/item02.png" alt="">
+                            <div class="item-catalog__lable">Cupboard</div>
+                            <h4 class="item-catalog__title">Wooden Cupboard 3 Row</h4>
+                            <div class="item-catalog__desc">Combination of wood and wool</div>
+                            <div class="item-catalog__price">$79.88</div>
+                        </div>
+                        <div class="catalog__item item-catalog">
+                            <img src="images/hero-product/item03.png" alt="">
+                            <div class="item-catalog__lable">Chair</div>
+                            <h4 class="item-catalog__title">Minimalist Lounge Chair</h4>
+                            <div class="item-catalog__desc">Combination of wood and wool</div>
+                            <div class="item-catalog__price">$14.74</div>
+                        </div>
+                        <div class="catalog__item item-catalog">
+                            <img src="images/hero-product/item04.png" alt="">
+                            <div class="item-catalog__lable">Table</div>
+                            <h4 class="item-catalog__title">Working Desk Setup</h4>
+                            <div class="item-catalog__desc">Combination of wood and wool</div>
+                            <div class="item-catalog__price">$47.90</div>
+                        </div>
+                        <div class="catalog__item item-catalog">
+                            <img src="images/hero-product/item05.png" alt="">
+                            <div class="item-catalog__lable">Cupboard</div>
+                            <h4 class="item-catalog__title">Minimalist White Cuppboard</h4>
+                            <div class="item-catalog__desc">Combination of wood and wool</div>
+                            <div class="item-catalog__price">$40.73</div>
+                        </div>
+                        <div class="catalog__item item-catalog">
+                            <img src="images/hero-product/item06.png" alt="">
+                            <div class="item-catalog__lable">Table</div>
+                            <h4 class="item-catalog__title">Wooden Dining Table</h4>
+                            <div class="item-catalog__desc">Combination of wood and wool</div>
+                            <div class="item-catalog__price">$16.50</div>
+                        </div>
+                        <div class="catalog__item item-catalog">
+                            <img src="images/hero-product/item07.png" alt="">
+                            <div class="item-catalog__lable">Decoration</div>
+                            <h4 class="item-catalog__title">White Minimalist Vase</h4>
+                            <div class="item-catalog__desc">Combination of wood and wool</div>
+                            <div class="item-catalog__price">$58.39</div>
+                        </div>
+                        <div class="catalog__item item-catalog">
+                            <img src="images/hero-product/item08.png" alt="">
+                            <div class="item-catalog__lable">Decoration</div>
+                            <h4 class="item-catalog__title">Plant With Clay Stand</h4>
+                            <div class="item-catalog__desc">Combination of wood and wool</div>
+                            <div class="item-catalog__price">$61.49</div>
+                        </div>
+                        <div class="catalog__item item-catalog">
+                            <img src="images/hero-product/item09.png" alt="">
+                             <div class="item-catalog__lable">Decoration</div>
+                            <h4 class="item-catalog__title">Oval Gold Mirror</h4>
+                            <div class="item-catalog__desc">Combination of wood and wool</div>
+                            <div class="item-catalog__price">$32.43</div>
+                        </div>
+                    </div>
+                    <div class="catalog__pages pages-catalog">
+                        <div class="pages-catalog__items">
+                            <img class="page__catalog__arrow arrow-left" src="images/hero-product/arrow.svg" alt="">
+                            <div class="pages-catalog__body">
+                                <div class="pages-catalog__item">1</div>
+                                <div class="pages-catalog__item">2</div>
+                                <div class="pages-catalog__item">3</div>
+                                <div class="pages-catalog__item">...</div>
+                                <div class="pages-catalog__item">10</div>
+                            </div>
+                            <img class="page__catalog__arrow" src="images/hero-product/arrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside class="filter-menu hide-filter-menu">
+            <header class="filter-menu__header">
+                <h3>Filter by Category</h3>
+                <button class="filter-menu__close" type="button">
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
+            <div class="filter-menu__items">
+                <label for="chair" class="filter-menu__checkbox checkbox">
+                    <input class="checkbox__input" type="checkbox" id="chair" value="chair">
+                    <span class="checkbox__text">Chairs</span>
+                </label>
+                <label for="cupboard" class="filter-menu__checkbox checkbox">
+                    <input class="checkbox__input" type="checkbox" id="cupboard" value="cupboard">
+                    <span class="checkbox__text">Cupboards</span>
+                </label>
+                <label for="table" class="filter-menu__checkbox checkbox">
+                    <input class="checkbox__input" type="checkbox" id="table" value="table">
+                    <span class="checkbox__text">Tables</span>
+                </label>
+                <label for="decoration" class="filter-menu__checkbox checkbox">
+                    <input class="checkbox__input" type="checkbox" id="decoration" value="decoration">
+                    <span class="checkbox__text">Decorations</span>
+                </label>
+            </div>
+        </aside>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__left">
+                    <a href="index.html" class="footer__logo">
+                        <img src="images/header/logo-item.svg" alt="">
+                        <span>Lalasia</span>
+                    </a>
+                    <div class="footer__text">
+                        <p>Lalasia is digital agency that help you make better experience iaculis cras in.</p>
+                    </div>
+                </div>
+                <div class="footer__right">
+                    <div class="footer__wrapper">
+                        <div class="footer__category">Product
+                            <img src="images/footer/arrow.svg" alt="">
+                        </div>
+                        <ul class="footer__list list-footer">
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">New Arrivals</a>
+                            </li>
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">Best Selling</a>
+                            </li>
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">Home Decor</a>
+                            </li>
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">Kitchen Set</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__wrapper">
+                        <div class="footer__category">Services
+                            <img src="images/footer/arrow.svg" alt="">
+                        </div>
+                        <ul class="footer__list list-footer">
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">Catalog</a>
+                            </li>
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">Blog</a>
+                            </li>
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">FaQ</a>
+                            </li>
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__wrapper">
+                        <div class="footer__category">Follow Us
+                            <img src="images/footer/arrow.svg" alt="">
+                        </div>
+                        <ul class="footer__list list-footer">
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">Facebook</a>
+                            </li>
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">Instagram</a>
+                            </li>
+                            <li class="list-footer__item">
+                                <a href="#" class="list-footer__link">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="module" defer src="js/products.js"></script>
+</body>
+</html>
